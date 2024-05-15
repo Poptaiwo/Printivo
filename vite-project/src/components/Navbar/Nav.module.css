@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    background-color: #f7f6f4;
+    padding-bottom: 20px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+    color: #506683;
+    cursor: pointer;
+    padding-top: 20px;
+    margin-left: -260px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.number{
+    color: #506683;
+    padding-top: 10px;
+    font-size: 15px;
+    margin-left: -350px;
+}
