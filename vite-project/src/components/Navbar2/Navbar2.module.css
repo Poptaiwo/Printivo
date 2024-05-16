@@ -1,0 +1,30 @@
+.Navbar2{
+    background-color: #ece8d9;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    color: #506683;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 20px;
+    margin-left: -10px;
+}
+.Printivo{
+    margin-left: -40px;
+    padding-top: 10px;
+    font-size: xx-large;
+}
+.sign{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 20px;
+    color: #506683;
+}
+ol{
+    text-decoration: none;
+}
