@@ -1,11 +1,16 @@
 import React from 'react'
 import styles from './Navbar2.module.css'
+import logo from '../../assets/images/logo.svg'
+import { FiShoppingCart } from "react-icons/fi";
+
 
 const Navbar2 = () => {
   return (
     <>
     <div className={styles.Navbar2}>
-        <h2 className={styles.Printivo}>Printivo</h2>
+        <div className={styles.Printivo}>
+        <img src={logo} alt="" />
+        </div>
         <div>
             <ul className={styles.list}>
                 <li>All Products</li>
@@ -14,13 +19,18 @@ const Navbar2 = () => {
                 <li>Marketplace</li>
             </ul>
         </div>
-        <div>
+        <div className={styles.gensign}>
             <ol className={styles.sign}>
-                <li><a href="#">Sign In</a></li>
-                <li><a href="#">Create an account</a></li>
+                <li className={styles.in}>Sign In</li>
+                <li>Create Account</li>
             </ol>
         </div>
+        <span className={styles.Cart}>
+        <FiShoppingCart size={24}/>
+
+        </span>
     </div>
+    
     </>
   )
 }
